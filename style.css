@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.nav-banner {
+    display: flex;
+    justify-content:end;
+    background-color: #1D1D1D;
+    color: white;
+}
+
+.menu-items{
+    list-style-type: none;
+    display: flex;
+    padding: 40px;
+}
+.menu-items li{
+    padding: 20px;
+
+}
+.contact-me{
+    border-radius: 25px;
+    height: 40px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 45px;
+}
+
+.left > div{
+    padding-left: 100px;
+    font-family: "Raleway";
+}
+.content img{
+    padding-bottom: 70px;
+    padding-top: 30px;
+    max-width: 59.67px;
+
+}
+.content h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+.content p{
+    padding-bottom: 30px;
+}
+.content h4{
+    padding-top: 30px;
+}
+.icons{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.icon-images{
+    gap: 15px;
+ 
+}
+
+.main-left-right{
+    background: url(./assets/black.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+#it-berries{
+    background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    padding-bottom: 30px;
+    padding-top: 30px;
+ }
+
+#it-berries .container{
+    color: white;   
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+
+#it-berries h3{
+    padding-bottom: 30px;
+    font-family: "Montserrat";
+    letter-spacing: 5px;
+}
+
+#it-berries p{
+    padding-bottom: 30px;
+    font-family: "Open Sans";
+}
+
+#it-berries button{
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-color: white;
+    border-right-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background: #1D1D1D;
+}
+
+
+#about-me{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#about-me .heading{
+    display:flex;
+    justify-content: center;  
+}
+
+#about-me h2{
+    border: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    max-height: 50px;
+    margin-bottom: 60px;
+    letter-spacing: 6px;
+}
+.para{
+    display:flex;
+    justify-content: center;
+}
+.para p{
+    font-family: "Open Sans";
+
+}
+
+#about-me button{
+    margin-top: 60px;
+    border-top-style: none;
+    border-bottom-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    display:flex;
+    justify-content: center;
+}
+   
+#about-me .button{
+    display:flex;
+    justify-content: center;  
+    margin-bottom: 70px;
+}
+
+.break-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+
+.design-devolopment-maintenance h4{
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.design-devolopment-maintenance p{
+    max-width: 450px;
+    font-family: "Open Sans";
+}
+
+.design-devolopment{
+    display: flex;
+    justify-content: center;
+}
+
+.design{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+.devolopment{
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+.maintenance{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 500px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.headings{
+    display: flex;
+    justify-content: center;
+    padding-right: 390px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.logo-name{
+    padding-left: 50px;
+}
+.row-1{
+    padding-bottom: 50px;
+}
+.part-1{
+    background: url(./assets/mountain.png);
+    min-height: 200px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#images h2{
+    border: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    max-height: 50px;
+    margin-bottom: 60px;
+    letter-spacing: 6px;
+    
+}
+#images .part-1{
+    display:flex;
+    justify-content: center;
+    padding-top:80px;
+    padding-bottom: 50px;  
+} 
+#images .part-2{
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.images-row-1{
+    display: flex;
+     max-width: 30px;
+} 
+.images-row-1 .text{
+    background: url(./assets/img-2.png);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text p{
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.text h3{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 8px;
+    padding-top: 20px;
+}
+.images-row-1 button{
+    padding-left: 30px;
+    padding-right: 30px;
+    background: none;
+    color: white;
+    border-bottom: none;
+    border-top: none;
+    border-left-color: white;
+    border-right-color: white;
+}
+.demo-more-buttons{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+.images-row-2{
+    display: flex;
+    max-width: 30px;
+}
+.part-4{
+    background: #1A1A1A;
+    display: flex;
+    justify-content: center;
+}
+.part-4 p{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+#contact{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#contact h2{
+    border: solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    max-height: 50px;
+    margin-bottom: 60px;
+    letter-spacing: 6px;
+}
+
+#contact .heading{
+     display:flex;
+    justify-content: center;  
+}
+
+#contact .button{
+    display:flex;
+    justify-content: center;  
+    margin-bottom: 70px;
+}
+#contact button{
+    margin-top: 60px;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-color:black;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    display:flex;
+    justify-content: center;
+    font-size: 12px;
+}
+#contact .break-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+footer{
+    background: #1A1A1A;
+}
+.double-arrow{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+footer p{
+    color: white;
+}
+.footer-logos {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding: 60px; 
+}
+.footer-text-1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.footer-text-2{
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+ 
+
+
