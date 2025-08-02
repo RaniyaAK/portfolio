@@ -16,7 +16,6 @@
     background-color: #1D1D1D;
     color: white;
 }
-
 .menu-items{
     list-style-type: none;
     display: flex;
@@ -24,9 +23,8 @@
 }
 .menu-items li{
     padding: 20px;
-
 }
-.contact-me{
+.nav-banner  button{
     border-radius: 25px;
     height: 40px;
     text-align: center;
@@ -34,7 +32,8 @@
     margin-top: 45px;
 }
 
-.left > div{
+
+.main-left-right > div{
     padding-left: 100px;
     font-family: "Raleway";
 }
@@ -42,12 +41,10 @@
     padding-bottom: 70px;
     padding-top: 30px;
     max-width: 59.67px;
-
 }
 .content h1{
     padding-top: 30px;
     padding-bottom: 10px;
-
 }
 .content p{
     padding-bottom: 30px;
@@ -62,41 +59,34 @@
 }
 .icon-images{
     gap: 15px;
- 
 }
-
 .main-left-right{
     background: url(./assets/black.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: right;
-
 }
-
 
 #it-berries{
     background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
     padding-bottom: 30px;
     padding-top: 30px;
- }
-
+}
 #it-berries .container{
     color: white;   
     margin-left: 40px;
-    margin-right: 40px;
- }
-
+}
 #it-berries h3{
     padding-bottom: 30px;
     font-family: "Montserrat";
     letter-spacing: 5px;
 }
-
 #it-berries p{
     padding-bottom: 30px;
     font-family: "Open Sans";
+    margin-right: 100px;
+    text-align:justify;
 }
-
 #it-berries button{
     border-top-style: none;
     border-bottom-style: none;
@@ -108,17 +98,14 @@
     background: #1D1D1D;
 }
 
-
 #about-me{
     margin-top: 60px;
     margin-bottom: 60px;
 }
-
 #about-me .heading{
     display:flex;
     justify-content: center;  
 }
-
 #about-me h2{
     border: solid;
     padding-right: 25px;
@@ -135,9 +122,12 @@
 }
 .para p{
     font-family: "Open Sans";
-
 }
-
+#about-me .button{
+    display:flex;
+    justify-content: center;  
+    margin-bottom: 70px;
+}
 #about-me button{
     margin-top: 60px;
     border-top-style: none;
@@ -147,14 +137,7 @@
     font-family: "Montserrat";
     display:flex;
     justify-content: center;
-}
-   
-#about-me .button{
-    display:flex;
-    justify-content: center;  
-    margin-bottom: 70px;
-}
-
+}  
 .break-logo{
     display: flex;
     justify-content: center;
@@ -168,39 +151,31 @@
 .spanner img{
     max-width:50px;
 }
-
 .machine img{
     max-width: 50px;
 }
 
-
 .design-devolopment-maintenance h4{
     letter-spacing: 3px;
     margin-bottom: 20px;
-
 }
-
 .design-devolopment-maintenance p{
     max-width: 450px;
     font-family: "Open Sans";
 }
-
 .design-devolopment{
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-
 .design{
     padding-left: 20px;
     padding-right: 20px;
-}
- 
+} 
 .devolopment{
     padding-left: 20px;
     padding-right: 20px;
 } 
-
 .maintenance{
     display: flex;
     flex-direction: column;
@@ -211,8 +186,7 @@
 
 .logos{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 .headings{
     display: flex;
@@ -222,20 +196,15 @@
     padding-top: 50px;
 }
 .logo-with-name{
-    padding-left: 50px;  
-    
-    
+    padding-left: 50px;     
 }
-
 .logo-with-name p{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 .using-now .row-1{
     padding-bottom: 50px;   
 }
-
 
 #images .part-1{
     background: url(./assets/mountain.png);
@@ -248,7 +217,6 @@
     padding-top:80px;
     padding-bottom: 50px;  
 }
-
 #images .part-1 h2{
     border: solid;
     padding-right: 25px;
@@ -259,7 +227,6 @@
     margin-bottom: 60px;
     letter-spacing: 6px;    
 }
-
 #images .part-2{
     background-color: #1D1D1D;
     color: white;
@@ -270,8 +237,6 @@
     padding-top: 40px;
 }
 
-
-
 .portfolio-images .text{
     background: url(./assets/img-2.png);
     background-position: center;
@@ -279,8 +244,7 @@
     background-size: cover;
     color: white;
     padding-top: 100px;
-    padding-bottom: 100px;
-     
+    padding-bottom: 100px;    
 }
 .text p{
     display: flex;
@@ -310,8 +274,6 @@
     gap: 20px;   
 }
 
-
-
 .portfolio-images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -321,9 +283,6 @@
     height: 100%;
     width:100%
 }
-
-
-
 
 .part-4{
     background: #1A1A1A;
@@ -336,12 +295,10 @@
     padding-top: 20px;
 }
 
-
 #contact{
     margin-top: 60px;
     margin-bottom: 60px;
 }
-
 #contact h2{
     border: solid;
     padding-right: 25px;
@@ -352,12 +309,39 @@
     margin-bottom: 60px;
     letter-spacing: 6px;
 }
-
 #contact .heading{
     display:flex;
     justify-content: center;  
 }
-
+#contact .break-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    justify-content: center;  
+}
+.form-input-box{
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-top: 0;
+    border-right: 0;
+    margin-top: 20px;
+}
+input{
+    border-top: 0;
+    border-right: 0;
+}
+#message{
+    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-right: 0;
+    border-top: 0;
+}
 #contact .button{
     display:flex;
     justify-content: center;  
@@ -376,37 +360,6 @@
     justify-content: center;
     font-size: 12px;
 }
-#contact .break-logo{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
-    margin-top: 50px;
-}
-.form{
-    display: flex;
-    justify-content: center;  
-    
-    
-     
-}
-.form-input-box{
-    display: flex;
-    align-items: center;
-    border: solid;
-    border-top: 0;
-    border-right: 0;
-    margin-top: 20px;
-}
-.input{
-    border-bottom: 0;
-}
-#message{
-    padding-bottom: 50px;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-
 
 footer{
     background: #1A1A1A;
@@ -416,7 +369,6 @@ footer .double-arrow{
     justify-content: center;
     padding-top: 40px;
 }
-
 footer p{
     color: white;
 }
@@ -431,7 +383,6 @@ footer p{
     color: white;
     padding-top: 10px;
 }
-
 .footer-text-2{
     text-align: center;
     color: white;
@@ -441,19 +392,8 @@ footer p{
 
  
 
-
-/* style here  */
-
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.portfolio-grid img {
-    width: 100%;
-    height: 100%
-}
-
-input, textarea {
-    border: 0;
+@media screen and (max-width: 532px) {
+    .logos {
+        flex-direction: column; 
+    }
 }
