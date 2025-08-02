@@ -9,12 +9,15 @@
     max-width: 1700px;
     margin: 0 auto;
 }
-
+header{
+    background-color: black;
+}
 .nav-banner {
     display: flex;
     justify-content:end;
     background-color: #1D1D1D;
     color: white;
+    padding-right: 30px;
 }
 .menu-items{
     list-style-type: none;
