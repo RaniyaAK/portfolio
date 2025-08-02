@@ -67,14 +67,15 @@
     background-position: right;
 }
 
-#it-berries{
-    background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+
+#it-berries .container{
+    background-color: black;
+    color: white;  
     padding-bottom: 30px;
     padding-top: 30px;
-}
-#it-berries .container{
-    color: white;   
-    margin-left: 40px;
+    padding-left: 30px;
+      
+    
 }
 #it-berries h3{
     padding-bottom: 30px;
@@ -335,6 +336,10 @@ input{
     border-top: 0;
     border-right: 0;
 }
+input:focus,
+    textarea:focus{
+        outline:none;
+    }
 #message{
     padding-bottom: 50px;
     padding-top: 5px;
